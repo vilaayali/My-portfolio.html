@@ -1,0 +1,32 @@
+
+.cointainer{
+/* background-color: bisque; */
+width: 800px;
+display: grid;
+grid-template-columns: repeat(3, 2fr ) ;
+grid-template-rows: repeat(3,2fr);
+/* grid-template-rows: 100px auto;
+grid-template-columns: 200px auto; */
+
+gap: 30px;
+justify-content: center;
+align-content: center;
+
+
+
+}
+.cointainer > *{ 
+    
+}
+.right{
+    width: fit-content;
+   
+    
+}
+img {
+    width: 100%;
+}
+p{
+    text-align: justify;
+    margin-bottom: 10px;
+}

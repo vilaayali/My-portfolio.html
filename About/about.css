@@ -1,0 +1,244 @@
+/* globle reset to remove any extra space */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* about card Styling*/
+
+/* main div for all about details */
+.intro_card_row {
+
+   
+    height: auto;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 100px;
+   
+    
+    /* top right bottom left */
+    padding: 70px 30px 70px 30px ;
+   box-shadow:0px 0px 15px gray ;
+}
+
+/* left about info */
+.left_info {
+    width: 50%;
+    /* display: flex;
+    flex-direction: column; */
+
+
+}
+
+/* right about info */
+.right_info {
+    width: 50%;
+    font-size: 30px;
+    padding: 20px;
+
+}
+.right_info > p{
+    color: rgb(153, 144, 144);
+}
+
+
+
+
+
+/* about card pic and information  */
+
+/* -------> */
+
+/*image in left card*/
+.pic_details>img {
+    
+    
+   
+    float: left;
+    width: 150px;
+    margin-right: 70px;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    padding-bottom: 15px;
+    
+    
+
+}
+.pic_details > h4{
+
+    font-size: 20px;
+    padding-top: 15px;
+
+  
+}
+
+
+/* span inside the h4 elements  */
+span {
+    color: gray;
+    padding-left: 6px;
+}
+
+
+
+.skills{
+    clear: both;
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.skils > h4, p {
+    padding-top:20px;
+    
+}
+
+
+/* skill set bars  */
+.html_bar {
+    height: 0.7rem;
+    background-color: #001C30;
+    width: 60%;
+    
+}
+
+.Css_bar {
+    height: 0.7rem;
+    background-color: #001C30;
+    width: 50%;
+}
+
+.php_bar {
+    height: 0.7rem;
+    background-color: #001C30;
+    width: 10%;
+}
+
+.java_bar {
+    height: 0.7rem;
+    background-color: #001C30;
+    width: 10%;
+}
+
+.container  {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* style for small devices */
+
+@media (max-width: 599px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    
+
+
+    /* header  */
+    .header {
+        width: 100%;
+    }
+
+    .tital_name {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    /* navigation */
+
+    .links {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    }
+
+
+    .footer_main {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .copy_rights {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+@media (max-width: 850px){
+
+    *{
+        padding: 0px;
+        margin: 0px;
+    }
+
+    
+    .container{
+       
+       
+    }
+
+    .intro_card_row{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        margin: 0;
+        border: none;
+        clear: left;
+
+
+    }
+
+    .pic_details > h4{
+
+    }
+
+    .pic_details>img {
+     margin-bottom: 20px;
+     display: inline;
+     clear: both;
+    }
+
+    .skills{
+        width: 100%;
+    }
+
+    .right_info{
+        width: 100%;
+        line-height: 1.5;
+    }
+    .left_info{
+        width: 100%;
+    }
+
+    /* for the font  */
+    .container  {
+    font-family: 'Arimo', sans-serif;
+    font-weight: 100;
+}
+
+}
+
+
+/*  */

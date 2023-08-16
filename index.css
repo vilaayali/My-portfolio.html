@@ -6,7 +6,8 @@
 
 /* to glide the page when you click on the link */
 html {
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    
 }
 
 /* web page body */
